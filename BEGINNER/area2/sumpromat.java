@@ -25,15 +25,15 @@ public class promatrix
 	    	 }
 	     }
 	          	    
-	     int sumOfDiagonal1=0;
+	     int sumOfDiagonal1=1;
          for (int i = 0, j =0; i< r1 && j < c1; i++, j++) {
-                sumOfDiagonal1= sumOfDiagonal1 + a[i][j];
+                sumOfDiagonal1= sumOfDiagonal1 * a[i][j];
                 
          }
-         int sum=0;
+         int sum=1;
          for(int i=0,j=c1-1;i<r1&&j>=0;i++,j--)
          {
-        	 sum= sum + a[i][j];
+        	 sum= sum * a[i][j];
              
          }
          
