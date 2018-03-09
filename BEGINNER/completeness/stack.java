@@ -11,8 +11,7 @@ public class ncoin
 		 int a[];
 		 a=new int[1];
 		 Scanner scan=new Scanner(System.in);
-		 n=scan.nextInt();//10
-		 n1=scan.nextInt();//4
+		 n=scan.nextInt(); n1=scan.nextInt();
 		 if(n%n1==0)
 		 
 			 System.out.print(n1);
