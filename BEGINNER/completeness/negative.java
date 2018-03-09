@@ -8,6 +8,7 @@ public class negative
 		Scanner scan=new Scanner(System.in);
 	   int a[];
 	   int sum=0;
+	   int flag=0;
 	   int n=scan.nextInt();
 	   a=new int[n];
 	   for(int i=0;i<n;i++)
@@ -18,10 +19,14 @@ public class negative
 	  {  if(a[i]<0)
 		  {
 			 sum=sum+a[i]; 
+			 flag=1;
 		  }//if
 	  }//for
-
-	  System.out.print(sum);
+	  if(flag==1)
+	   System.out.print(sum);
+	  else
+	  System.out.print("0");
+		 
 	}//class
 
 }//main
