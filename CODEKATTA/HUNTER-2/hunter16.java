@@ -19,7 +19,7 @@ public class hunter16
 			{
 			if(a[i]<k)
 			{
-				System.out.print(a[i]);
+				System.out.print(a[i]+" ");
 				count=count+1;
 			}
 			if(a[i]>k)
@@ -28,7 +28,7 @@ public class hunter16
 		Collections.sort(al);
 		for(int i=0;i<(3-(count));i++)
 			
-			System.out.print(al.get(i));
+			System.out.print(al.get(i)+" ");
 				
 			
 			
