@@ -28,7 +28,7 @@ public class hunter54
 			
 		}
 		for(int i=0;i<al2.size();i++)
-			System.out.print(al2.get(i));
+			System.out.print(al2.get(i)+" ");
 			
 			
 		
